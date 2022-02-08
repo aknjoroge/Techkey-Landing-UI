@@ -19,6 +19,6 @@ The content on this site is declared INVALID and INCORRECT & NOT related to Tech
 
 ### Preview
 
- <a href="https://github.com/aknjoroge/Three.js-setup.git">
+ <a href="#">
     <img src="https://github.com/aknjoroge/Techkey-Landing-UI/blob/master/assets/img.png" alt="Logo" width="1366" height="615">
   </a>
