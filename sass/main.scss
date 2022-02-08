@@ -1,0 +1,71 @@
+@import "variables";
+@import "animation.scss";
+@import "team.scss";
+@import "mixin.scss";
+@import "bg-video";
+@import "preloader.scss";
+
+
+.web__name{
+    letter-spacing: .5rem;
+    padding: 5px;
+    &:hover{
+        transform: scale(1.08) translateY(-.8rem);
+        box-shadow: 0 2.5rem 4rem rgba($shadow_color, .5);
+        z-index: 20;
+        //for setting the border color
+        outline: .5rem solid $linear_gradient_color_three;
+
+    }
+}
+
+.textdraw{
+   animation-name: tect-color;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    display: inline-block;
+    animation-timing-function: ease-in-out;
+    transition: all .4s;
+    &:hover{
+        cursor: none;
+    }
+}
+
+
+.about{
+    &__statement{
+    font-family: Nunito, sans-serif;  letter-spacing: 1.5px;
+    font-weight: 600; font-size: 15px;
+    margin: 0; line-height: 25px;opacity: 0.95;
+    }
+    &--highlight{
+        color: #777;
+    }
+}
+
+.est__text{
+    display: inline-block;
+    animation-name: rotate;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+font-weight: 500;
+    
+}
+
+
+.list{
+    letter-spacing: 2px;
+}
+.service__info{
+    letter-spacing: 2px;
+}
+
+.to-team-btn{
+    text-decoration: none;
+    color: #777;
+}
+

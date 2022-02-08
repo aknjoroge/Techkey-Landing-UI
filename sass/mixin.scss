@@ -1,0 +1,27 @@
+@mixin respond($breakpoint) {
+
+    @if $breakpoint == phone{
+        @media only screen and (max-width :37.5em){ //0-600px
+            @content;
+        }
+    }
+    @if $breakpoint == tab-port{
+        /* only screen and is used to set scalling of website to web only and not when someone is printing the web-page
+        the media queries only apply to screens
+        */
+        @media only screen and (max-width :56.25em){ //600-900px
+            @content;
+        }
+    }
+    @if $breakpoint == tab-land{
+        @media only screen and (max-width :75em){   //900-1200px
+            @content;
+        }
+    }
+    @if $breakpoint == big-desktop{
+        @media only screen and (max-width :112.5em){  //1200-1800px
+            @content;
+        }
+    }
+    
+}

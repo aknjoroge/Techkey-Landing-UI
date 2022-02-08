@@ -1,0 +1,44 @@
+@keyframes tect-color {
+  0% {
+    transform: rotate(0deg);
+  }
+  20% {
+    color: #777;
+  }
+  80% {
+    color: #7ed56f;
+  }
+  100% {
+    transform: rotateX(0deg);
+    color: white;
+  }
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotateX(180deg);
+    color: white;
+  }
+  40% {
+    color: #777;
+  }
+  50% {
+    transform: rotateX(0);
+  }
+  60% {
+    color: #7ed56f;
+  }
+  80% {
+    transform: rotateX(180deg);
+  }
+  90% {
+    transform: rotateX(0deg);
+    color: #777;
+  }
+  100% {
+    transform: rotateX(0deg);
+    color: #7ed56f;
+  }
+}/*# sourceMappingURL=animation.css.map */
